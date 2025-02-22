@@ -10,6 +10,7 @@ output "redshift_serverless_hostname" {
 output "redshift_username" {
   description = "Admin username for Redshift Serverless"
   value       = aws_redshiftserverless_namespace.namespace.admin_username
+  sensitive = true
 }
 
 # Output Redshift Admin Password (Sensitive)

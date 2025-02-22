@@ -8,6 +8,7 @@ __pycache__/
 # Distribution / packaging
 .Python
 my_venv/
+venv/
 env/
 build/
 develop-eggs/
@@ -88,3 +89,23 @@ target/
 
 # Mypy cache
 .mypy_cache/
+
+# Ignore Terraform state files and logs
+*.tfstate
+*.tfstate.*
+*.log
+
+# Ignore Terraform crash files
+crash.log
+crash.*
+
+# Ignore Terraform variables (sensitive data)
+*.tfvars
+*.tfvars.json
+
+# Ignore Terraform working directories
+.terraform/
+.terraform.lock.hcl
+
+
+airflow\configuration.conf
