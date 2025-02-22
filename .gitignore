@@ -104,8 +104,8 @@ crash.*
 *.tfvars.json
 
 # Ignore Terraform working directories
-.terraform/
-.terraform.lock.hcl
+terraform/
+terraform.lock.hcl
 
 
 airflow\configuration.conf
