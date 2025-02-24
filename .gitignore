@@ -108,4 +108,4 @@ terraform/
 terraform.lock.hcl
 
 
-airflow\configuration.conf
+airflow\extraction\configuration.conf
