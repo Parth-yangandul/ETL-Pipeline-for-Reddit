@@ -109,3 +109,4 @@ terraform.lock.hcl
 
 
 airflow\extraction\configuration.conf
+airflow/logs/
